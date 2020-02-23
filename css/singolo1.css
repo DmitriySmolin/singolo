@@ -83,3 +83,27 @@ html {
 .menu-item:last-child .menu-link::after {
     display: none;
 }
+
+.slider {
+    width: 100%;
+    border-top: 6px solid #323746;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 600px;
+    background-color: #f06c64;
+    padding: 59px 40px 88px 40px;
+}
+
+.slider-arrow:focus {
+    outline: none;
+}
+
+.slider-arrow {
+    display: block;
+    width: 16px;
+    height: 27px;
+    cursor: pointer;
+    border: none;
+    background-color: #f06c64;
+}
