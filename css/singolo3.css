@@ -187,3 +187,43 @@ html {
     height: 6px;
     background-color: #ea676b;
 }
+
+
+.footer {
+    height: 76px;
+    background-color: #2d303a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_text {
+    padding: 33px 0px 32px 42px;
+    color: #666d89;
+    font-size: 12px;
+}
+
+.icons {
+    padding: 22px 40px 22px 0px;
+}
+
+.icon_link {
+    width: 32px;
+    height: 32px;
+    padding: 9px 12px 9px 17px;
+    border: 1px solid #666d89;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    position: relative;
+}
+
+.icon_link img {
+    padding: 9px 9px;
+    transition: 0.3s;
+    color: #666d89;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
