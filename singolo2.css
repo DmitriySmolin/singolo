@@ -34,8 +34,8 @@ html {
     font-family: 'lato', 'Times New Roman'
 }
 
-body {
-    margin: 0 auto !important;
+.container {
+    margin: 0 auto;
     width: 1020px;
 }
 

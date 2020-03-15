@@ -30,9 +30,10 @@
     box-sizing: border-box;
 }
 
-body {
+
+.container {
     width: 1020px;
-    margin: 0 auto !important;
+    margin: 0 auto;
 }
 
 html {
