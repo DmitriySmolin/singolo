@@ -336,6 +336,7 @@ html {
     font-weight: 300;
     line-height: 30px;
     text-align: justify;
+    margin-right: 62px;
 }
 
 .people_wrap {
@@ -421,6 +422,8 @@ html {
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
+    text-align: justify;
+    margin-right: 62px;
 }
 
 .form {
