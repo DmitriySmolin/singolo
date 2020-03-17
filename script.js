@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector('.popup_letter').textContent = '';
         document.querySelector('.popup_subject').textContent = '';
         document.querySelector('.popup_descr').textContent = '';
-        document.querySelector('body').style.overflow = 'hidden';
+        document.querySelector('body').style.overflow = '';
         document.querySelector('.popup').style.display = 'none';
         document.querySelector('.popup_form').style.display = 'none';
     });
