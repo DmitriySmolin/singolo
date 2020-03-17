@@ -565,7 +565,7 @@ html {
 .email,
 .subject,
 .textarea {
-    -webkit-box-shadow: inset 0 0 0 50px #D6564F;
+    box-shadow: inset 0 0 0 50px #D6564F;
     -webkit-text-fill-color: #f48c8f;
 }
 
