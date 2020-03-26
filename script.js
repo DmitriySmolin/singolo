@@ -32,6 +32,12 @@ document.addEventListener("DOMContentLoaded", () => {
     /*btnPopup*/
     const btnPopup = document.querySelector('.popup_btn');
 
+    /*openSide && closeSide*/
+    const openSide = document.querySelector(".open_side");
+    const closeSide = document.querySelector(".btn_close");
+
+    /*mobileMenu Navigation*/
+    const mobileMenu = document.querySelector('.mobile_menu');
 
     /*Events*/
 
@@ -104,6 +110,20 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector('.popup').style.display = 'none';
         document.querySelector('.popup_form').style.display = 'none';
     });
+
+    /*openSide && closeSide*/
+    openSide.addEventListener('click', () => {
+        document.getElementById("side-menu").style.width = "278px";
+    })
+    closeSide.addEventListener('click', () => {
+        document.getElementById("side-menu").style.width = "0px";
+    })
+
+    /*mobileMenu Navigation*/
+    mobileMenu.addEventListener('click', (e) => {
+        mobileMenu.querySelectorAll('a').forEach(el => el.classList.remove('menu-link-active'));
+        e.target.classList.add('menu-link-active');
+    })
 
     /*Slider*/
     let slideNow = 1;

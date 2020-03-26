@@ -18,6 +18,24 @@
             </h1>
         </div>
         <nav class="navigation">
+            <div class="mobile_wrap">
+                <button class="open_side">☰</button>
+                <div id="side-menu" class="side-nav">
+                    <div class="side_header">
+                        <button class="btn_close">☰</button>
+                        <div class="side_title">
+                            singolo<span>*</span></a>
+                        </div>
+                    </div>
+                    <ul class="mobile_menu">
+                        <li><a class="menu-link-active" href="#home">home</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </div>
             <ul class="menu">
                 <li class="menu-item"><a href="#home" class="menu-link menu-link-active">home</a></li>
                 <li class="menu-item"><a href="#services" class="menu-link">services</a></li>
@@ -54,7 +72,7 @@
                 <h2 class="services-title">Our Services</h2>
                 <div class="services-descr">
                     Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
-                    non commodo luctus, nisi erat porttitor <br>ligula, eget lacinia odio sem nec elit. Fusce dapibus,
+                    non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus,
                     tellus ac
                     cursus commodo, tortor mauris condimentum nibh.</div>
                 <div class="services-block block">
@@ -126,10 +144,10 @@
                     <img src="assets/img/sdk.svg" class="item portfolio_img"></img>
                     <img src="assets/img/tv.svg" class="item portfolio_img"></img>
                     <img src="assets/img/birds.svg" class="item portfolio_img"></img>
-                    <img src="assets/img/green-moster.svg" class="item portfolio_img"></img>
-                    <img src="assets/img/title.svg" class="item portfolio_img"></img>
-                    <img src="assets/img/white-monster.svg" class=" item portfolio_img"></img>
-                    <img src="assets/img/wood.svg" class="item portfolio_img"></img>
+                    <img src="assets/img/green-moster.svg" class="item portfolio_img hidden"></img>
+                    <img src="assets/img/title.svg" class="item portfolio_img hidden"></img>
+                    <img src="assets/img/white-monster.svg" class=" item portfolio_img hidden"></img>
+                    <img src="assets/img/wood.svg" class="item portfolio_img hidden"></img>
                 </div>
             </div>
         </section>
@@ -143,7 +161,7 @@
                 </div>
                 <div class="people_wrap">
                     <div class="person">
-                        <img src="./assets/img/adam_jensen.jpg" alt="Adam Jensen">
+                        <img class="person_img" src="./assets/img/adam_jensen.jpg" alt="Adam Jensen">
                         <h3 class="person_name">Adam Jensen</h3>
                         <div class="person_descr">
                             Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus
@@ -162,7 +180,7 @@
                         </div>
                     </div>
                     <div class="person">
-                        <img src="./assets/img/desmond_miles.jpg" alt="Adam Jensen">
+                        <img class="person_img" src="./assets/img/desmond_miles.jpg" alt="Adam Jensen">
                         <h3 class="person_name">Desmond Miles</h3>
                         <div class="person_descr">
                             Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut,
@@ -180,9 +198,9 @@
                         </div>
                     </div>
                     <div class="person">
-                        <img src="./assets/img/scolara_visari.jpg" alt="Adam Jensen">
+                        <img class="person_img" src="./assets/img/scolara_visari.jpg" alt="Adam Jensen">
                         <h3 class="person_name">Scolara Visari</h3>
-                        <div class="person_descr">
+                        <div class="person_descr fixed">
                             Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.
                             Quisque
                             condimentum.
@@ -252,7 +270,6 @@
             </div>
         </div>
     </div>
-    <div class="line"></div>
     <footer class="footer">
         <div class="footer_text">© Copyright 2013 </div>
         <div class="icons">
